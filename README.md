@@ -36,9 +36,9 @@ Start Developing Modules
 
 [Module Developer Guide Reference Module](https://github.com/appcelerator/titanium_modules/tree/master/moddevguide)
 
-[Module Developer Guide for Android](http://wiki.appcelerator.org/display/guides2/Android+Module+Development+Guide)
+[Module Developer Guide for Android](https://wiki.appcelerator.org/display/guides/Android+Module+Development+Guide)
 
-[Module Developer Guide for iOS](http://wiki.appcelerator.org/display/guides2/iOS+Module+Development+Guide)
+[Module Developer Guide for iOS](https://wiki.appcelerator.org/display/guides/iOS+Module+Development+Guide)
 
 Getting Help
 ------------
