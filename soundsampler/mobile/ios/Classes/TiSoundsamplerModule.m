@@ -46,7 +46,11 @@
 							  nil];
 	
 	NSError *error;
-	
+
+	AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+	[audioSession setActive:YES error:nil];
+	[[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+    
 	recorder = [[AVAudioRecorder alloc] initWithURL:url settings:settings error:&error];
 	
 	if (recorder == nil) {
